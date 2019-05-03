@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CryptoTrack App || Details </title>
+    <link rel="shortcut icon" href="../img/icon/icon.png" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="../css/mdb.min.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="../css/details.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- JQuery link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Start project here-->
+    <div class="container">
+        <h1 class="display-3" style="text-align:center">Details of Cryptocurrency</h1><br>
+        <div class="loader" id="loader">
+            <div class="spinner-grow" role="status" style="width: 4rem; height: 4rem; ">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+
+        <!-- News jumbotron -->
+        <div class="jumbotron text-center hoverable p-4" id="bodyApp">
+            <div class="row">
+                <div class="col-md-4 offset-md-1 mx-3 my-3">
+                    <div class="view overlay">
+                        <img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="img-fluid"
+                            height="150" width="150" alt="Sample image for first version of blog listing" id="img"
+                            style="margin:auto; margin-top:20%">
+                        <a>
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-7 text-md-left ml-3 mt-3">
+                    <a href="#!" class="green-text">
+                        <h6 class="h6 pb-1"><i class="fab fa-bitcoin"></i> <span id="symbol"></span></h6>
+                    </a>
+
+                    <h4 class="h4 mb-4" id="name">This is title of the news</h4>
+
+                    <p class="font-weight-normal" id="description"></p>
+                    <p class="font-weight-normal">Website: <a><strong id="url">Carine Fox</strong></a></p>
+
+                    <a class="btn btn-success" href="../index.html"><i class="fas fa-angle-double-left"></i> Back</a>
+
+                </div>
+            </div>
+        </div>
+        <!-- /News jumbotron -->
+    </div>
+    <!-- /Start project here-->
+
+    <!-- SCRIPTS -->
+    <!-- Application JavaScript -->
+    <script type="text/javascript" src="../js/details.js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="../js/jquery-3.4.0.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="../js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="../js/mdb.min.js"></script>
+
+</body>
+
+</html>

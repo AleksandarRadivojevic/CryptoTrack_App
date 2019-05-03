@@ -1,0 +1,28 @@
+.loader {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+#secoundPartApp {
+    margin-top: 5%
+}
+
+.subtitle {
+    width: 100%;
+    padding: 5px;
+    text-align: center
+}
+table {
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .subtitle {
+        display: none
+    }
+    .display-3 {
+        font-size: 30px;
+        margin-top: 5%;
+    }
+}
